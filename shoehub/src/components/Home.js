@@ -1,5 +1,7 @@
 import {NavLink} from 'react-router-dom'
 import './home.css'
+import { FaExclamation } from 'react-icons/fa'
+
 export default function Home(){
     return (
         <>
@@ -7,7 +9,7 @@ export default function Home(){
             <div className='container'>
                 <div className='detail'>
                     <h2>The Best Shoe Online Store </h2>
-                    <NavLink to='/product' className='productlink'>Shop Now</NavLink>
+                    <NavLink to='/product' className='productlink'>View more products<FaExclamation /></NavLink>
                 </div>
                 <div className="image-box">
                     <img src='./images/img/shoe3.png' alt="shopify" width="300" height="300"></img>
@@ -25,7 +27,7 @@ export default function Home(){
 
                     </div>
                     <div className='detail'>
-                        <p><NavLink to='/product'>Click for more</NavLink></p>
+                        <p><NavLink to='/product'>Click to view more exciting products</NavLink></p>
                     </div>
                 </div>
                 <div className='box'>
@@ -36,7 +38,7 @@ export default function Home(){
 
                     </div>
                     <div className='detail'>
-                        <p>63 Products</p>
+                        <p><NavLink to='/product'>Click to view more exciting products</NavLink></p>
                     </div>
                 </div>
                 <div className='box'>
@@ -47,7 +49,7 @@ export default function Home(){
 
                     </div>
                     <div className='detail'>
-                        <p>18 Products</p>
+                        <p><NavLink to='/product'>Click to view more exciting products</NavLink></p>
                     </div>
                 </div>
                 <div className='box'>
@@ -58,7 +60,7 @@ export default function Home(){
 
                     </div>
                     <div className='detail'>
-                        <p>23 Products</p>
+                        <p><NavLink to='/product'>Click to view more exciting products</NavLink></p>
                     </div>
                 </div>
                 
@@ -70,7 +72,7 @@ export default function Home(){
 
                     </div>
                     <div className='detail'>
-                        <p>52 Products</p>
+                        <p><NavLink to='/product'>Click to view more exciting products</NavLink></p>
                     </div>
                 </div>
 

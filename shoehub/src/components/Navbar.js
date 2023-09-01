@@ -68,7 +68,7 @@ function Navbar() {
 
               </li>
               <li>
-                <NavLink to='/product'>Product</NavLink>
+                <NavLink to='/product'>View products</NavLink>
 
               </li>
               <li>
