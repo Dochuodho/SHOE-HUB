@@ -5,6 +5,7 @@ import products from "../db/data"
 import Sidebar from "../SideBar/Sidebar"
 import Card from "../components/Card"
 import { useState } from "react";
+import Nav from "../Nav/Nav"
 
 function Product() {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -71,6 +72,7 @@ function Product() {
   return (
 
     <>
+    <Nav />
   
     <Sidebar handleChange={handleChange} />
     <Recommended handleClick={handleClick}/>
