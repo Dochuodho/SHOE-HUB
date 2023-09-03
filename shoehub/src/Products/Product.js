@@ -9,6 +9,15 @@ import Nav from "../Nav/Nav"
 import Cart from "../Cart"
 
 function Product() {
+  const [cart, setCart] = useState([])
+
+  const handleClickk = (item) => {
+    console.log(item)
+  }
+
+
+
+
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   // ----------- Input Filter -----------
@@ -62,6 +71,7 @@ function Product() {
           reviews={reviews}
           prevPrice={prevPrice}
           newPrice={newPrice}
+          handleClickk={handleClickk}
         />
       )
     );
@@ -81,9 +91,6 @@ function Product() {
     <Products result={result} />
     
 
-    
-     
-     
     </>
   );
 }
