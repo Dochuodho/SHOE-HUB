@@ -16,7 +16,7 @@ const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
               <del>{prevPrice}</del> {newPrice}
             </div>
             <div className="bag">
-              <BsFillBagFill className="bag-icon" />
+              <button class="btn btn-success">Add to cart<BsFillBagFill className="bag-icon" /></button>
             </div>
           </section>
         </div>
