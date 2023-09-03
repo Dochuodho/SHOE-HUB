@@ -1,7 +1,11 @@
 import { BsFillBagFill } from "react-icons/bs";
+import { useCart } from "react-use-cart";
 
 const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
+  const { addItem } = useCart();
+
   return (
+    
     <>
       <section className="card">
         <img src={img} alt={title} className="card-img" />
@@ -16,7 +20,7 @@ const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
               <del>{prevPrice}</del> {newPrice}
             </div>
             <div className="bag">
-              <button class="btn btn-success">Add to cart<BsFillBagFill className="bag-icon" /></button>
+              <button class="btn btn-success" onClick={()=>addItem({img, title, star, reviews, prevPrice, newPrice})}>Add to cart<BsFillBagFill className="bag-icon" /></button>
             </div>
           </section>
         </div>

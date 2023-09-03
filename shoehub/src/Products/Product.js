@@ -6,6 +6,7 @@ import Sidebar from "../SideBar/Sidebar"
 import Card from "../components/Card"
 import { useState } from "react";
 import Nav from "../Nav/Nav"
+import Cart from "../Cart"
 
 function Product() {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -74,9 +75,11 @@ function Product() {
     <>
     <Nav />
   
+  
     <Sidebar handleChange={handleChange} />
     <Recommended handleClick={handleClick}/>
     <Products result={result} />
+    
 
     
      
