@@ -9,10 +9,13 @@ import Nav from "../Nav/Nav"
 import Cart from "../Cart"
 
 function Product() {
-  const [cart, setCart] = useState([])
+  const [cart, setCart] = useState([]);
+  const [show, setShow] = useState(true);
 
   const handleClickk = (item) => {
-    console.log(item)
+    cart.push(item);
+    console.log(cart);
+
   }
 
 

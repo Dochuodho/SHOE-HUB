@@ -15,7 +15,7 @@ import './Navbar.css'
 
 
 function Navbar() {
-  const { loginWithRedirect, logout, user, isAuthenticated } = useAuth0();
+  const { loginWithRedirect, logout, user, isAuthenticated, setShow} = useAuth0();
   return (
     <>
     <div className="free">
@@ -50,8 +50,8 @@ function Navbar() {
             
               
                 <div className='icon2'>
-                  <NavLink to="/" className='routelink'>Home<BsFillHouseHeartFill /></NavLink>
-                  <NavLink to="/cart" className='routelink'>Cart<FaShoppingBag /></NavLink>
+                  <NavLink to="/" className='routelink' onClick={()=>setShow(true)}>Home<BsFillHouseHeartFill /></NavLink>
+                  <NavLink to="/cart" className='routelink' onClick={()=>setShow(false)}>Cart<FaShoppingBag /></NavLink>
                 </div>
               </div>
            
