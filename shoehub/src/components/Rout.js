@@ -4,6 +4,7 @@ import Product from '../Products/Product.js'
 import Cart from '../Cart'
 import { CartProvider } from 'react-use-cart'
 import { useState } from 'react'
+import About from "./About"
 
 
 export default function Rout(){
@@ -15,6 +16,7 @@ export default function Rout(){
             <Route path="/" element={<Home />}/>
             <Route path="/product" element={show ? <Product />: "Cart"}/>
             <Route path="/cart" element={<Cart />}/>
+            <Route path="/about" element={<About />}/>
         
 
         </Routes>

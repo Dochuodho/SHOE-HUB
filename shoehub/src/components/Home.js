@@ -65,7 +65,7 @@ export default function Home(){
                 
                 <div className='box'>
                     <div className='image'>
-                        <img src="./images/img/shoe5.avif" alt='headphone'></img>
+                        <img src="./images/img/b7.png" alt='headphone'></img>
 
 
 
