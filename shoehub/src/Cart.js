@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function Cart(){
+
     return(
         <div>
             <h2>Cart</h2>

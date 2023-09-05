@@ -13,7 +13,6 @@ export default function Home(){
                 </div>
                 <div className="image-box">
                     <img src='./images/img/shoe3.png' alt="shopify" width="300" height="300"></img>
-
                 </div>
             </div>
         </div>
@@ -21,7 +20,7 @@ export default function Home(){
             <div className='cont'>
                 <div className='box'>
                     <div className='image'>
-                        <img src='./images/img/b7.png' alt='Mobile Phone'></img>
+                        <img src='./images/img/shoe.avif' alt='Mobile Phone'></img>
 
 
 
@@ -32,7 +31,7 @@ export default function Home(){
                 </div>
                 <div className='box'>
                     <div className='image'>
-                        <img src='./images/img/b7.png' alt='cpu'></img>
+                        <img src='./images/img/shoe2.avif' alt='cpu'></img>
 
 
 
@@ -43,7 +42,7 @@ export default function Home(){
                 </div>
                 <div className='box'>
                     <div className='image'>
-                        <img src='./images/img/b7.png' alt='smart watch'></img>
+                        <img src='./images/img/shoe3.avif' alt='smart watch'></img>
 
 
 
@@ -54,7 +53,7 @@ export default function Home(){
                 </div>
                 <div className='box'>
                     <div className='image'>
-                        <img src='./images/img/b7.png' alt='Mobile Phone'></img>
+                        <img src='./images/img/shoe4.avif' alt='Mobile Phone'></img>
 
 
 
@@ -66,7 +65,7 @@ export default function Home(){
                 
                 <div className='box'>
                     <div className='image'>
-                        <img src="./images/img/b7.png" alt='headphone'></img>
+                        <img src="./images/img/shoe5.avif" alt='headphone'></img>
 
 
 
